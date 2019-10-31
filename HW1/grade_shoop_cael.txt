@@ -1,0 +1,37 @@
+Assignment: HW1
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (50)                    |  35 |
+| Test Cases (30)               |  20 |
+| Compilation/Runtime (10)      |   8 |
+| Documentation (10)            |  10 |
++-------------------------------+-----+
+| Total (100)                   |  73 |
+| Number of days late           |   0 |
+| Total with late penalty       |  73 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (100)             |  73 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic:
+
+Struct for each contact is identical, so you only need one struct. Then initialize three contacts, rather than copying the contact structs three times.
+
+Insertion into the list, incorrectly implemented.
+
+Deleting messages causes segfaults when the target timestamp does not exist.
+
+Test Cases:  Errors in output due to above issues.
+
+Compilation/Runtime: ok
+
+Documentation: ok
+

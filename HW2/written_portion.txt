@@ -1,0 +1,33 @@
+1. Explain the number of additions to the total (not Big-O) in terms of n for the following program segment:
+------------------------------------------------
+    int total = 0;
+    for (int i = 0; i < n; i += 2)
+        total += 1;
+------------------------------------------------
+n/2 additions.
+
+2. Explain the number of additions to the total (not Big-O) in terms of n for the following program segment:
+------------------------------------------------
+    int total = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = i; j >= 0; j--)
+            total += i * j;
+------------------------------------------------
+n(n!) additions.
+
+3. Mathematically show that if d(n) is O(f(n)) and f(n) is O(g(n)), d(n) is O(g(n)).
+
+
+4. Consider f(n) = 5n^2 + 4n - 2, mathematically show that f(n) is O(n^2), Omega(n^2), and Theta(n^2).
+
+
+5. For finding an item in a sorted array, consider "ternary search," which is similar to binary search. It compares array elements at two locations and eliminates 2/3 of the array. To analyze the number of comparisons, the recurrence equations are T(n) = 2 + T(n/3), T(2) = 2, and T(1) = 1, where n is the size of the array. Explain why the equations characterize "tertiary search" and solve for T(n).
+
+
+6. To analyze the time complexity of the "brute-force" algorithm in the programming part of the assignment, we would like to count the number of all possible strings.
+    (a) Explain the number of all possible strings in terms of n (maximum length of a string).
+        26 to the power of the string length (ex. 1: 26^10, ex. 2: 26^5).
+    (b) Consider a computer that can process 1 billion strings per second and n is 100, explain the number of years needed to process all possible strings.
+        
+    (c) If we don't want the computer to spend more than 1 minute, explain the largest n the computer can process.
+        Maximum length of 7 characters (26^7). 26^6 is less than a minute, but 26^7 is much larger than 60 billion.

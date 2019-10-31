@@ -1,0 +1,15 @@
+ReceiveMessage 132457 Alice hi you doing anything this weekend
+ReceiveMessage 153043 Bob we're celebrating John's b-day
+ReceiveMessage 153031 Bob drinks tonight?
+OpenApp
+DisplayConversation Bob
+SendMessage 161537 Bob sure, where at?
+DeleteMessage 161537 Bob
+SendMessage 162545 Bob might be a bit late, got a lot of homework
+CloseApp
+ReceiveMessage 170728 Carol you done with the calc hw?
+OpenApp
+DisplayConversation Carol
+SendMessage 171240 Carol wanna work on it together, im having trouble too
+SendMessage 215310 Alice im going out for drinks with some people tonight
+CloseApp

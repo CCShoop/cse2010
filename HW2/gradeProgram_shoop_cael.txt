@@ -1,0 +1,27 @@
+Logic (35): 31
+Test Cases (21): 18
+Compilation/Runtime (7): 7
+Documentation (7): 7
+-----------------------------------
+Total (70): 63
+Number of days late:
+Total with late penalty: 
+Group Help improvement: 
+# of days late for Group Help:
+Improvement with late penalty: 
+===================================
+Final Total (70): 63
+
+
+***** Comments *****
+
+Logic:
+Password is not returned from recursive function, so enumeration does not stop after password is found (-4)
+Using a linked list to store the encrypted strings was not necessary; just scan and decrypt each input (no points deducted)
+
+Test Cases: Too slow on words that are towards the end of the alphabet (-3)
+
+Compilation/Runtime:
+
+Documentation:
+

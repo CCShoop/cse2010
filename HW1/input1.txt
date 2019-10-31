@@ -1,0 +1,18 @@
+ReceiveMessage 092457 Alice why didn't you come home last night???
+ReceiveMessage 092502 Alice are you cheating on me?!
+ReceiveMessage 092443 Bob she heard you got with Carol
+ReceiveMessage 092431 Bob dude Alice is flipping out
+OpenApp
+DisplayConversation Bob
+SendMessage 092504 Bob this is so annoying
+DisplayConversation Alice
+SendMessage 092518 Alice we broke up 5 weeks ago
+SendMessage 092523 Alice you're so possessive that you can't accept the fact that we're not together anymore!
+DeleteMessage 092523 Alice
+SendMessage 092527 Alice please leave me alone. it's been over for so long, move on.
+CloseApp
+ReceiveMessage 170728 Carol heyyyy, you want to hang out again tonight?
+OpenApp
+DisplayConversation Carol
+SendMessage 171240 Carol of course ;)
+CloseApp
