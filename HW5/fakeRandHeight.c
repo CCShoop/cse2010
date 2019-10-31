@@ -35,7 +35,7 @@
 // return the next number in the sequence, recycle the sequence if needed
 int getRandHeight() {
     //sequence of height
-    static int height[] = {0, 1, 0, 2, 0, 1, 0, 3, 0, 1, 0, 2, 0, 1, 0, 4, 0, 1, 0, 2, 0, 1, 0, 3, 0, 1, 0, 2, 0, 1, 0};
+    static int height[] = {0, 1, 0, 2, 2, 0, 0, 3, 2, 0, 0, 2, 0, 1, 0, 4, 0, 1, 0, 2, 0, 1, 0, 3, 0, 1, 0, 2, 0, 1, 0};
   
     static int count=0;  // number of times getRandHeight() has been called 
 
