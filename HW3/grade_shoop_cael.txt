@@ -1,0 +1,35 @@
+Assignment: HW3
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (50)                    |  30 |
+| Test Cases (30)               |   0 |
+| Compilation/Runtime (10)      |  10 |
+| Documentation (10)            |  10 |
++-------------------------------+-----+
+| Total (100)                   |  50 |
+| Number of days late           |   1 |
+| Total with late penalty       |  40 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (100)             |  40 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic:
+
+Program does not have output based on queries.
+
+Queries are not handled by the program.
+
+Test Cases: No output based on queries.
+
+Compilation/Runtime: ok
+
+Documentation: ok
+
